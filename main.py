@@ -13,3 +13,8 @@ def read_root():
 def read_root():
     return {"Thanks for clicking"}
 
+@app.get("/subtraction")
+def read_root():
+    return {"Subtraction endpoint"}
+
+
