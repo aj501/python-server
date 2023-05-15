@@ -12,4 +12,7 @@ def read_root():
 @app.get("/submitbutton")
 def read_root():
     return {"Thanks for clicking"}
+@app.get("/multiply")
+def read_root():
+    return {3*5}
 
